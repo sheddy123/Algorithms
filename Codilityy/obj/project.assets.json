@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Sorting/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Sorting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sorting.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Sorting/1.0.0": {
+      "type": "project",
+      "path": "../Sorting/Sorting.csproj",
+      "msbuildProject": "../Sorting/Sorting.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Sorting >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\iodom\\.nuget\\packages\\": {},
@@ -37,7 +56,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\iodom\\Documents\\Visual Studio 2019\\Projects\\Codilityy\\Sorting\\Sorting.csproj": {
+              "projectPath": "C:\\Users\\iodom\\Documents\\Visual Studio 2019\\Projects\\Codilityy\\Sorting\\Sorting.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

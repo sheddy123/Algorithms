@@ -1,0 +1,8 @@
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Sorting\obj\Debug\netstandard2.0\Sorting.csprojAssemblyReference.cache
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Sorting\obj\Debug\netstandard2.0\Sorting.AssemblyInfoInputs.cache
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Sorting\obj\Debug\netstandard2.0\Sorting.AssemblyInfo.cs
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Sorting\bin\Debug\netstandard2.0\Sorting.deps.json
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Sorting\bin\Debug\netstandard2.0\Sorting.dll
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Sorting\bin\Debug\netstandard2.0\Sorting.pdb
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Sorting\obj\Debug\netstandard2.0\Sorting.dll
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Sorting\obj\Debug\netstandard2.0\Sorting.pdb

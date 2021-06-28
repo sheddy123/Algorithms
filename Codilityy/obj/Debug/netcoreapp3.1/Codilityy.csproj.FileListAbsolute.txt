@@ -9,3 +9,6 @@ C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Codilityy\obj\Deb
 C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Codilityy\obj\Debug\netcoreapp3.1\Codilityy.AssemblyInfo.cs
 C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Codilityy\obj\Debug\netcoreapp3.1\Codilityy.dll
 C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Codilityy\obj\Debug\netcoreapp3.1\Codilityy.pdb
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Codilityy\bin\Debug\netcoreapp3.1\Sorting.dll
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Codilityy\bin\Debug\netcoreapp3.1\Sorting.pdb
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Codilityy\obj\Debug\netcoreapp3.1\Codilityy.csproj.CopyComplete
