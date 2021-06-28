@@ -1,0 +1,11 @@
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Codilityy\bin\Debug\netcoreapp3.1\Codilityy.exe
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Codilityy\bin\Debug\netcoreapp3.1\Codilityy.deps.json
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Codilityy\bin\Debug\netcoreapp3.1\Codilityy.runtimeconfig.json
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Codilityy\bin\Debug\netcoreapp3.1\Codilityy.runtimeconfig.dev.json
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Codilityy\bin\Debug\netcoreapp3.1\Codilityy.dll
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Codilityy\bin\Debug\netcoreapp3.1\Codilityy.pdb
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Codilityy\obj\Debug\netcoreapp3.1\Codilityy.csprojAssemblyReference.cache
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Codilityy\obj\Debug\netcoreapp3.1\Codilityy.AssemblyInfoInputs.cache
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Codilityy\obj\Debug\netcoreapp3.1\Codilityy.AssemblyInfo.cs
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Codilityy\obj\Debug\netcoreapp3.1\Codilityy.dll
+C:\Users\iodom\Documents\Visual Studio 2019\Projects\Codilityy\Codilityy\obj\Debug\netcoreapp3.1\Codilityy.pdb
