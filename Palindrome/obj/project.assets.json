@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\iodom\\source\\repos\\Algorithms\\Palindrome\\Palindrome.csproj",
-      "projectName": "Palindrome",
-      "projectPath": "C:\\Users\\iodom\\source\\repos\\Algorithms\\Palindrome\\Palindrome.csproj",
+      "projectUniqueName": "C:\\Users\\iodom\\source\\repos\\Algorithms\\Palindrome\\Recursion.csproj",
+      "projectName": "Recursion",
+      "projectPath": "C:\\Users\\iodom\\source\\repos\\Algorithms\\Palindrome\\Recursion.csproj",
       "packagesPath": "C:\\Users\\iodom\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\iodom\\source\\repos\\Algorithms\\Palindrome\\obj\\",
       "projectStyle": "PackageReference",
