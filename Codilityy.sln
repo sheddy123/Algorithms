@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codilityy", "Codilityy\Codi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sorting", "Sorting\Sorting.csproj", "{8806E4E1-E64F-403D-AF67-A98D3562970E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackImplementation", "StackImplementation\StackImplementation.csproj", "{B585CC2F-C94B-43C2-9EFC-48AB184E2322}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackImplementation", "StackImplementation\StackImplementation.csproj", "{B585CC2F-C94B-43C2-9EFC-48AB184E2322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Palindrome\Recursion.csproj", "{9567E984-BCBB-4AB7-99A4-0945F41DE473}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{B585CC2F-C94B-43C2-9EFC-48AB184E2322}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B585CC2F-C94B-43C2-9EFC-48AB184E2322}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B585CC2F-C94B-43C2-9EFC-48AB184E2322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9567E984-BCBB-4AB7-99A4-0945F41DE473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9567E984-BCBB-4AB7-99A4-0945F41DE473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9567E984-BCBB-4AB7-99A4-0945F41DE473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9567E984-BCBB-4AB7-99A4-0945F41DE473}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

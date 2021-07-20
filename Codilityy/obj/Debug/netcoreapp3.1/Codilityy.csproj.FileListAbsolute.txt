@@ -30,3 +30,5 @@ C:\Users\iodom\source\repos\Algorithms\Codilityy\obj\Debug\netcoreapp3.1\Codilit
 C:\Users\iodom\source\repos\Algorithms\Codilityy\obj\Debug\netcoreapp3.1\Codilityy.genruntimeconfig.cache
 C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\StackImplementation.dll
 C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\StackImplementation.pdb
+C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\Recursion.dll
+C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\Recursion.pdb

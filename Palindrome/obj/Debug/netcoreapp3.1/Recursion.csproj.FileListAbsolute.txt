@@ -1,0 +1,9 @@
+C:\Users\iodom\source\repos\Algorithms\Palindrome\bin\Debug\netcoreapp3.1\Recursion.deps.json
+C:\Users\iodom\source\repos\Algorithms\Palindrome\bin\Debug\netcoreapp3.1\Recursion.dll
+C:\Users\iodom\source\repos\Algorithms\Palindrome\bin\Debug\netcoreapp3.1\Recursion.pdb
+C:\Users\iodom\source\repos\Algorithms\Palindrome\obj\Debug\netcoreapp3.1\Recursion.csproj.AssemblyReference.cache
+C:\Users\iodom\source\repos\Algorithms\Palindrome\obj\Debug\netcoreapp3.1\Recursion.AssemblyInfoInputs.cache
+C:\Users\iodom\source\repos\Algorithms\Palindrome\obj\Debug\netcoreapp3.1\Recursion.AssemblyInfo.cs
+C:\Users\iodom\source\repos\Algorithms\Palindrome\obj\Debug\netcoreapp3.1\Recursion.csproj.CoreCompileInputs.cache
+C:\Users\iodom\source\repos\Algorithms\Palindrome\obj\Debug\netcoreapp3.1\Recursion.dll
+C:\Users\iodom\source\repos\Algorithms\Palindrome\obj\Debug\netcoreapp3.1\Recursion.pdb
