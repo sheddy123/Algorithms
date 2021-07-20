@@ -12,7 +12,7 @@ namespace Codilityy
             int[] array = new int[8] { 30, 3, 14, 5, 6, 8, 2, 71 };
             string word = "abcdefghijklmnpqrstuvwxyz";
             WordReversal reverse = new WordReversal(word);
-            var reversedWord = reverse.ReverseWord();
+            var reversedWord = reverse.reverseString(word);
             Console.WriteLine($"Before reversal: {word} \n\t\n ");
 
             Console.WriteLine($"After reversal: {reversedWord} \n\t\n ");

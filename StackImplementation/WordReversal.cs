@@ -70,5 +70,14 @@
             }
             return output;
         }
+
+        public string reverseString(string input)
+        {
+            if (input == "")
+            {
+                return "";
+            }
+            return reverseString(input.Substring(1)) + input[0];
+        }
     }
 }
