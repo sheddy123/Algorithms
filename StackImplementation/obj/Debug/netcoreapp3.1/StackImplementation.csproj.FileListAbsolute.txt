@@ -1,0 +1,9 @@
+C:\Users\iodom\source\repos\Algorithms\StackImplementation\bin\Debug\netcoreapp3.1\StackImplementation.deps.json
+C:\Users\iodom\source\repos\Algorithms\StackImplementation\bin\Debug\netcoreapp3.1\StackImplementation.dll
+C:\Users\iodom\source\repos\Algorithms\StackImplementation\bin\Debug\netcoreapp3.1\StackImplementation.pdb
+C:\Users\iodom\source\repos\Algorithms\StackImplementation\obj\Debug\netcoreapp3.1\StackImplementation.AssemblyInfoInputs.cache
+C:\Users\iodom\source\repos\Algorithms\StackImplementation\obj\Debug\netcoreapp3.1\StackImplementation.AssemblyInfo.cs
+C:\Users\iodom\source\repos\Algorithms\StackImplementation\obj\Debug\netcoreapp3.1\StackImplementation.csproj.CoreCompileInputs.cache
+C:\Users\iodom\source\repos\Algorithms\StackImplementation\obj\Debug\netcoreapp3.1\StackImplementation.dll
+C:\Users\iodom\source\repos\Algorithms\StackImplementation\obj\Debug\netcoreapp3.1\StackImplementation.pdb
+C:\Users\iodom\source\repos\Algorithms\StackImplementation\obj\Debug\netcoreapp3.1\StackImplementation.csproj.AssemblyReference.cache

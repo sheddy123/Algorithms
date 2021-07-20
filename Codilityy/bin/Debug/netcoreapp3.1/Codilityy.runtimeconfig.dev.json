@@ -2,8 +2,7 @@
   "runtimeOptions": {
     "additionalProbingPaths": [
       "C:\\Users\\iodom\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\iodom\\.nuget\\packages",
-      "C:\\Microsoft\\Xamarin\\NuGet"
+      "C:\\Users\\iodom\\.nuget\\packages"
     ]
   }
 }

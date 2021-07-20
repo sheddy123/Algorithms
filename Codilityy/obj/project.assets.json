@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/Sorting.dll": {}
         }
+      },
+      "StackImplementation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/StackImplementation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StackImplementation.dll": {}
+        }
       }
     }
   },
@@ -19,46 +29,52 @@
       "type": "project",
       "path": "../Sorting/Sorting.csproj",
       "msbuildProject": "../Sorting/Sorting.csproj"
+    },
+    "StackImplementation/1.0.0": {
+      "type": "project",
+      "path": "../StackImplementation/StackImplementation.csproj",
+      "msbuildProject": "../StackImplementation/StackImplementation.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Sorting >= 1.0.0"
+      "Sorting >= 1.0.0",
+      "StackImplementation >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\iodom\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\iodom\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\iodom\\Documents\\Visual Studio 2019\\Projects\\Codilityy\\Codilityy\\Codilityy.csproj",
+      "projectUniqueName": "C:\\Users\\iodom\\source\\repos\\Algorithms\\Codilityy\\Codilityy.csproj",
       "projectName": "Codilityy",
-      "projectPath": "C:\\Users\\iodom\\Documents\\Visual Studio 2019\\Projects\\Codilityy\\Codilityy\\Codilityy.csproj",
+      "projectPath": "C:\\Users\\iodom\\source\\repos\\Algorithms\\Codilityy\\Codilityy.csproj",
       "packagesPath": "C:\\Users\\iodom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\iodom\\Documents\\Visual Studio 2019\\Projects\\Codilityy\\Codilityy\\obj\\",
+      "outputPath": "C:\\Users\\iodom\\source\\repos\\Algorithms\\Codilityy\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
         "C:\\Users\\iodom\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://13.90.93.249/NugetGallery/api/v1/FeedService.svc": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\iodom\\Documents\\Visual Studio 2019\\Projects\\Codilityy\\Sorting\\Sorting.csproj": {
-              "projectPath": "C:\\Users\\iodom\\Documents\\Visual Studio 2019\\Projects\\Codilityy\\Sorting\\Sorting.csproj"
+            "C:\\Users\\iodom\\source\\repos\\Algorithms\\Sorting\\Sorting.csproj": {
+              "projectPath": "C:\\Users\\iodom\\source\\repos\\Algorithms\\Sorting\\Sorting.csproj"
+            },
+            "C:\\Users\\iodom\\source\\repos\\Algorithms\\StackImplementation\\StackImplementation.csproj": {
+              "projectPath": "C:\\Users\\iodom\\source\\repos\\Algorithms\\StackImplementation\\StackImplementation.csproj"
             }
           }
         }
@@ -71,6 +87,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -86,7 +103,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

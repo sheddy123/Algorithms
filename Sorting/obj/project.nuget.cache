@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "++foAsXO3v895mbHU/iLmzMl//xrp6FS4FmG1kZGQDryW9zRhkdTFI3zArPCgf1ybxTHNFp+qr09FfkVZkv7jQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\iodom\\source\\repos\\Algorithms\\Sorting\\Sorting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\iodom\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\iodom\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

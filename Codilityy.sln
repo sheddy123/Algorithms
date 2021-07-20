@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codilityy", "Codilityy\Codilityy.csproj", "{1178EB33-E4D8-4469-AD4E-66D895707006}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "Sorting\Sorting.csproj", "{8806E4E1-E64F-403D-AF67-A98D3562970E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sorting", "Sorting\Sorting.csproj", "{8806E4E1-E64F-403D-AF67-A98D3562970E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackImplementation", "StackImplementation\StackImplementation.csproj", "{B585CC2F-C94B-43C2-9EFC-48AB184E2322}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8806E4E1-E64F-403D-AF67-A98D3562970E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8806E4E1-E64F-403D-AF67-A98D3562970E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8806E4E1-E64F-403D-AF67-A98D3562970E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B585CC2F-C94B-43C2-9EFC-48AB184E2322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B585CC2F-C94B-43C2-9EFC-48AB184E2322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B585CC2F-C94B-43C2-9EFC-48AB184E2322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B585CC2F-C94B-43C2-9EFC-48AB184E2322}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

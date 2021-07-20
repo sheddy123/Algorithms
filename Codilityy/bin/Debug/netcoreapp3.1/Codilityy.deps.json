@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v3.1": {
       "Codilityy/1.0.0": {
         "dependencies": {
-          "Sorting": "1.0.0"
+          "Sorting": "1.0.0",
+          "StackImplementation": "1.0.0"
         },
         "runtime": {
           "Codilityy.dll": {}
@@ -17,6 +18,11 @@
       "Sorting/1.0.0": {
         "runtime": {
           "Sorting.dll": {}
+        }
+      },
+      "StackImplementation/1.0.0": {
+        "runtime": {
+          "StackImplementation.dll": {}
         }
       }
     }
@@ -28,6 +34,11 @@
       "sha512": ""
     },
     "Sorting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StackImplementation/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

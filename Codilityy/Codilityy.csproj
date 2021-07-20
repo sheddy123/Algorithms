@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Sorting\Sorting.csproj" />
+    <ProjectReference Include="..\StackImplementation\StackImplementation.csproj" />
   </ItemGroup>
 
 </Project>
