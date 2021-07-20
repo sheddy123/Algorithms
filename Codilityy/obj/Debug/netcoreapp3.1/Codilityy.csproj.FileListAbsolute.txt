@@ -32,3 +32,5 @@ C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\StackIm
 C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\StackImplementation.pdb
 C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\Recursion.dll
 C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\Recursion.pdb
+C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\Searching.dll
+C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\Searching.pdb

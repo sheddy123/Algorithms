@@ -12,6 +12,16 @@
           "bin/placeholder/Recursion.dll": {}
         }
       },
+      "Searching/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Searching.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Searching.dll": {}
+        }
+      },
       "Sorting/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -40,6 +50,11 @@
       "path": "../Palindrome/Recursion.csproj",
       "msbuildProject": "../Palindrome/Recursion.csproj"
     },
+    "Searching/1.0.0": {
+      "type": "project",
+      "path": "../Searching/Searching.csproj",
+      "msbuildProject": "../Searching/Searching.csproj"
+    },
     "Sorting/1.0.0": {
       "type": "project",
       "path": "../Sorting/Sorting.csproj",
@@ -54,6 +69,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Recursion >= 1.0.0",
+      "Searching >= 1.0.0",
       "Sorting >= 1.0.0",
       "StackImplementation >= 1.0.0"
     ]
@@ -88,6 +104,9 @@
           "projectReferences": {
             "C:\\Users\\iodom\\source\\repos\\Algorithms\\Palindrome\\Recursion.csproj": {
               "projectPath": "C:\\Users\\iodom\\source\\repos\\Algorithms\\Palindrome\\Recursion.csproj"
+            },
+            "C:\\Users\\iodom\\source\\repos\\Algorithms\\Searching\\Searching.csproj": {
+              "projectPath": "C:\\Users\\iodom\\source\\repos\\Algorithms\\Searching\\Searching.csproj"
             },
             "C:\\Users\\iodom\\source\\repos\\Algorithms\\Sorting\\Sorting.csproj": {
               "projectPath": "C:\\Users\\iodom\\source\\repos\\Algorithms\\Sorting\\Sorting.csproj"

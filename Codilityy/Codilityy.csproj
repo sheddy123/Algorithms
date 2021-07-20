@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Palindrome\Recursion.csproj" />
+    <ProjectReference Include="..\Searching\Searching.csproj" />
     <ProjectReference Include="..\Sorting\Sorting.csproj" />
     <ProjectReference Include="..\StackImplementation\StackImplementation.csproj" />
   </ItemGroup>

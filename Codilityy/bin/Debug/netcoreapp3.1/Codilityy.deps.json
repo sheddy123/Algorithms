@@ -9,6 +9,7 @@
       "Codilityy/1.0.0": {
         "dependencies": {
           "Recursion": "1.0.0",
+          "Searching": "1.0.0",
           "Sorting": "1.0.0",
           "StackImplementation": "1.0.0"
         },
@@ -19,6 +20,11 @@
       "Recursion/1.0.0": {
         "runtime": {
           "Recursion.dll": {}
+        }
+      },
+      "Searching/1.0.0": {
+        "runtime": {
+          "Searching.dll": {}
         }
       },
       "Sorting/1.0.0": {
@@ -40,6 +46,11 @@
       "sha512": ""
     },
     "Recursion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Searching/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

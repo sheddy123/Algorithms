@@ -3,6 +3,7 @@ using System.Text;
 using Sorting;
 using StackImplementation;
 using Recursion;
+using Searching;
 
 namespace Codilityy
 {
@@ -11,14 +12,24 @@ namespace Codilityy
         static void Main(string[] args)
         {
             int[] array = new int[8] { 30, 3, 14, 5, 6, 8, 2, 71 };
+            InsertionSort sort = new InsertionSort();
+            sort.Insert_Sort(array);
+            BinarySearch binSearch = new BinarySearch();
+            StringBuilder sb = new StringBuilder();
+            foreach(var val in array)
+            {
+                sb.Append(val);
+            }
+            Console.WriteLine(sb.ToString());
+            var num = binSearch.BinarySearchImp(array, 0, array.Length -1, 8);
+            Console.WriteLine("The index fell at index " + num);
+            //string palindromeWord = "sasdrqdsas";
 
-            string palindromeWord = "sasdrqdsas";
+            //Palindrome _Palindrome = new Palindrome(palindromeWord);
+            //var isPalindrome = _Palindrome.IsPalindrome(palindromeWord.Length);
+            //Console.WriteLine(isPalindrome);
 
-            Palindrome _Palindrome = new Palindrome(palindromeWord);
-            var isPalindrome = _Palindrome.IsPalindrome(palindromeWord.Length);
-            Console.WriteLine(isPalindrome);
-
-//            string word = "abcdefghijklmnpqrstuvwxyz";
+            //            string word = "abcdefghijklmnpqrstuvwxyz";
 
 
             //WordReversal reverse = new WordReversal(word);
