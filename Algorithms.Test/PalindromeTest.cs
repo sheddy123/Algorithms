@@ -1,6 +1,7 @@
 ﻿using Xunit;
 using Recursion;
 
+
 namespace Algorithms.Test
 {
     public class PalindromeTest

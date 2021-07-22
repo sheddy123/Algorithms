@@ -940,7 +940,7 @@
       },
       "Sorting/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
           "bin/placeholder/Sorting.dll": {}
         },
@@ -3536,8 +3536,8 @@
     },
     "Sorting/1.0.0": {
       "type": "project",
-      "path": "../Sorting/Sorting.csproj",
-      "msbuildProject": "../Sorting/Sorting.csproj"
+      "path": "../Sort/Sorting.csproj",
+      "msbuildProject": "../Sort/Sorting.csproj"
     },
     "StackImplementation/1.0.0": {
       "type": "project",
@@ -3595,8 +3595,8 @@
             "C:\\Users\\iodom\\source\\repos\\Algorithms\\Searching\\Searching.csproj": {
               "projectPath": "C:\\Users\\iodom\\source\\repos\\Algorithms\\Searching\\Searching.csproj"
             },
-            "C:\\Users\\iodom\\source\\repos\\Algorithms\\Sorting\\Sorting.csproj": {
-              "projectPath": "C:\\Users\\iodom\\source\\repos\\Algorithms\\Sorting\\Sorting.csproj"
+            "C:\\Users\\iodom\\source\\repos\\Algorithms\\Sort\\Sorting.csproj": {
+              "projectPath": "C:\\Users\\iodom\\source\\repos\\Algorithms\\Sort\\Sorting.csproj"
             },
             "C:\\Users\\iodom\\source\\repos\\Algorithms\\StackImplementation\\StackImplementation.csproj": {
               "projectPath": "C:\\Users\\iodom\\source\\repos\\Algorithms\\StackImplementation\\StackImplementation.csproj"
