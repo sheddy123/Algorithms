@@ -36,8 +36,8 @@ namespace Sorting
             for (;j<=rightIndex; j++)
                 temp[k++] = array[j];
 
-            for (int a = leftIndex; a <= rightIndex; a++)
-                array[a] = temp[a];
+            for (i= leftIndex; i <= rightIndex; i++)
+                array[i] = temp[i - leftIndex];
         }
         public int[] MergeSortImp(int[] array, int left, int right)
         {
