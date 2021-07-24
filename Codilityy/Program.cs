@@ -4,6 +4,8 @@ using Sorting;
 using StackImplementation;
 using Recursion;
 using Searching;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Codilityy
 {
@@ -12,6 +14,11 @@ namespace Codilityy
         static void Main(string[] args)
         {
             int[] array = new int[8] { 30, 3, 14, 5, 6, 8, 2, 71 };
+           // string number = "10001";
+           // Program pro = new Program();
+           // var numg = pro.solution(805306373);
+           //var d = number.Length;
+           // var index = number.IndexOf("1", number.IndexOf("1")+1);
             InsertionSort sort = new InsertionSort();
             sort.Insert_Sort(array);
             BinarySearch binSearch = new BinarySearch();
@@ -73,7 +80,7 @@ namespace Codilityy
             Console.ReadLine();
         }
 
-
+       
     }
 
     public class Factorial
