@@ -14,6 +14,8 @@ namespace Codilityy
         static void Main(string[] args)
         {
             int[] array = new int[8] { 30, 3, 14, 5, 6, 8, 2, 71 };
+            CyclicRotation cyclic = new CyclicRotation();
+            var dd = se.solution(array, 3);
            // string number = "10001";
            // Program pro = new Program();
            // var numg = pro.solution(805306373);

@@ -16,6 +16,7 @@ namespace Codilityy
                     foundNumber.Add(A[i]);
                 }
             }
+            
 
             int result = 1;
             while (foundNumber.Contains(result))
