@@ -19,7 +19,6 @@ namespace Codilityy
 
        
     }
-
     public class Factorial
     {
         StringBuilder sb = new StringBuilder();
