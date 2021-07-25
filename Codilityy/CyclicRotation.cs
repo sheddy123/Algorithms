@@ -10,6 +10,7 @@ namespace Codilityy
             {
                 int i = 0;
                 var t = A;
+               
                 int temp = A[A.Length - 1];
                 while (i < A.Length)
                 {
