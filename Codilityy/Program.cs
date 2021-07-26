@@ -13,6 +13,11 @@ namespace Codilityy
     {
         static void Main(string[] args)
         {
+            AdditionOfNumbers addNumbers = new AdditionOfNumbers();
+            int totalNumbers = addNumbers.AddTotalNumbers(5);
+            int totalNumbers2 = addNumbers.AddTotalNumbers2(5);
+            Console.WriteLine($"Addition with first calculation = {totalNumbers}");
+            Console.WriteLine($"Addition with second calculation = {totalNumbers2}");
            
             Console.ReadLine();
         }
