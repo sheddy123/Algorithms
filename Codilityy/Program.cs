@@ -27,6 +27,7 @@ namespace Codilityy
     public class Factorial
     {
         StringBuilder sb = new StringBuilder();
+        
         public double GetFact(double num)
         {
             sb.Append($"{num}! ");
