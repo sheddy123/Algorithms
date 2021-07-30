@@ -6,6 +6,7 @@ using Recursion;
 using Searching;
 using System.Collections.Generic;
 using System.Linq;
+using System.Globalization;
 
 namespace Codilityy
 {
@@ -18,7 +19,7 @@ namespace Codilityy
             int totalNumbers2 = addNumbers.AddTotalNumbers2(5);
             Console.WriteLine($"Addition with first calculation = {totalNumbers}");
             Console.WriteLine($"Addition with second calculation = {totalNumbers2}");
-           
+
             Console.ReadLine();
         }
 

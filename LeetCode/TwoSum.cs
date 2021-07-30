@@ -19,6 +19,7 @@ namespace LeetCode
 
                 List<int> storeArray = new List<int>(nums);
                 int[] newArray = new int[2];
+               
                 int result = 0;
                 for (int i = 0; i < nums.Length; i++)
                 {
@@ -33,7 +34,7 @@ namespace LeetCode
                     }
 
                     storeArray[i] = nums[i];
-
+                    
                 }
                 return nums;
             }
