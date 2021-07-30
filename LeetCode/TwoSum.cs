@@ -18,6 +18,31 @@ namespace LeetCode
             {
 
                 List<int> storeArray = new List<int>(nums);
+                int[] newArray = new int[2];
+                int result = 0;
+                for (int i = 0; i < nums.Length; i++)
+                {
+                    result = target - nums[i];
+
+                    storeArray[i] = result == nums[i] ? (nums[i] + 1) : 0;
+                    if (storeArray.Contains(result))
+                    {
+                        newArray[0] = i;
+                        newArray[1] = storeArray.IndexOf(result);
+                        return newArray;
+                    }
+
+                    storeArray[i] = nums[i];
+
+                }
+                return nums;
+            }
+
+            //Second and 
+            public int[] TwoSums(int[] nums, int target)
+            {
+
+                List<int> storeArray = new List<int>(nums);
 
                 int result = 0;
 
