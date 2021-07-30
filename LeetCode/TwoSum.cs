@@ -38,41 +38,41 @@ namespace LeetCode
                 return nums;
             }
 
-            //Second and 
-            public int[] TwoSums(int[] nums, int target)
-            {
+            //Second and slower 
+            //public int[] TwoSums(int[] nums, int target)
+            //{
 
-                List<int> storeArray = new List<int>(nums);
+            //    List<int> storeArray = new List<int>(nums);
 
-                int result = 0;
+            //    int result = 0;
 
-                for (int i = 0; i < nums.Length; i++)
-                {
-                    result = target - nums[i];
+            //    for (int i = 0; i < nums.Length; i++)
+            //    {
+            //        result = target - nums[i];
 
-                    //nums[i] = 0;
-                    if (storeArray.Contains(result) && nums[i] != result)
-                    {
+            //        //nums[i] = 0;
+            //        if (storeArray.Contains(result) && nums[i] != result)
+            //        {
 
-                        int[] newArray = new int[2] { i, Array.IndexOf(nums, result) };
-                        return newArray;
-                    }
-                    else if (storeArray.Contains(result) && nums[i] == result)
-                    {
-                        storeArray[i] = -1;
-                        nums[i] = -1;
-                        if (storeArray.Contains(result))
-                        {
+            //            int[] newArray = new int[2] { i, Array.IndexOf(nums, result) };
+            //            return newArray;
+            //        }
+            //        else if (storeArray.Contains(result) && nums[i] == result)
+            //        {
+            //            storeArray[i] = -1;
+            //            nums[i] = -1;
+            //            if (storeArray.Contains(result))
+            //            {
 
-                            int[] newArray = new int[2] { i, Array.IndexOf(nums, result) };
-                            return newArray;
-                        }
+            //                int[] newArray = new int[2] { i, Array.IndexOf(nums, result) };
+            //                return newArray;
+            //            }
 
-                    }
+            //        }
 
-                }
-                return nums;
-            }
+            //    }
+            //    return nums;
+            //}
         }
     }
 }
