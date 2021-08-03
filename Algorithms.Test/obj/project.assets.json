@@ -918,6 +918,16 @@
           "bin/placeholder/Codilityy.dll": {}
         }
       },
+      "LeetCode/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/LeetCode.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LeetCode.dll": {}
+        }
+      },
       "Recursion/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -3524,6 +3534,11 @@
       "path": "../Codilityy/Codilityy.csproj",
       "msbuildProject": "../Codilityy/Codilityy.csproj"
     },
+    "LeetCode/1.0.0": {
+      "type": "project",
+      "path": "../LeetCode/LeetCode.csproj",
+      "msbuildProject": "../LeetCode/LeetCode.csproj"
+    },
     "Recursion/1.0.0": {
       "type": "project",
       "path": "../Palindrome/Recursion.csproj",
@@ -3548,6 +3563,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Codilityy >= 1.0.0",
+      "LeetCode >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "Recursion >= 1.0.0",
       "Searching >= 1.0.0",
@@ -3588,6 +3604,9 @@
           "projectReferences": {
             "C:\\Users\\iodom\\source\\repos\\Algorithms\\Codilityy\\Codilityy.csproj": {
               "projectPath": "C:\\Users\\iodom\\source\\repos\\Algorithms\\Codilityy\\Codilityy.csproj"
+            },
+            "C:\\Users\\iodom\\source\\repos\\Algorithms\\LeetCode\\LeetCode.csproj": {
+              "projectPath": "C:\\Users\\iodom\\source\\repos\\Algorithms\\LeetCode\\LeetCode.csproj"
             },
             "C:\\Users\\iodom\\source\\repos\\Algorithms\\Palindrome\\Recursion.csproj": {
               "projectPath": "C:\\Users\\iodom\\source\\repos\\Algorithms\\Palindrome\\Recursion.csproj"
