@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LeetCode\LeetCode.csproj" />
     <ProjectReference Include="..\Palindrome\Recursion.csproj" />
     <ProjectReference Include="..\Searching\Searching.csproj" />
     <ProjectReference Include="..\Sort\Sorting.csproj" />

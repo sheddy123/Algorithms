@@ -121,6 +121,9 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "C:\\Users\\iodom\\source\\repos\\Algorithms\\LeetCode\\LeetCode.csproj": {
+                "projectPath": "C:\\Users\\iodom\\source\\repos\\Algorithms\\LeetCode\\LeetCode.csproj"
+              },
               "C:\\Users\\iodom\\source\\repos\\Algorithms\\Palindrome\\Recursion.csproj": {
                 "projectPath": "C:\\Users\\iodom\\source\\repos\\Algorithms\\Palindrome\\Recursion.csproj"
               },
