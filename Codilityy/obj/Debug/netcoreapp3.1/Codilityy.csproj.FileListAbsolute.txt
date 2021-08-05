@@ -34,3 +34,5 @@ C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\Recursi
 C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\Recursion.pdb
 C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\Searching.dll
 C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\Searching.pdb
+C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\LeetCode.dll
+C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\LeetCode.pdb
