@@ -7,6 +7,7 @@ using Searching;
 using System.Collections.Generic;
 using System.Linq;
 using System.Globalization;
+using LeetCode;
 
 namespace Codilityy
 {
@@ -14,6 +15,10 @@ namespace Codilityy
     {
         static void Main(string[] args)
         {
+            int[] duplicates = new int[3] { 1, 1, 2 };
+            RemoveDuplicatesSortedArray array = new RemoveDuplicatesSortedArray();
+            var output = array.ReoveDuplicates(duplicates);
+            Console.WriteLine(output);
             AdditionOfNumbers addNumbers = new AdditionOfNumbers();
             int totalNumbers = addNumbers.AddTotalNumbers(5);
             int totalNumbers2 = addNumbers.AddTotalNumbers2(5);

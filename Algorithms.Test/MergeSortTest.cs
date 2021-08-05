@@ -13,7 +13,7 @@ namespace Algorithms.Test
         {
             //var imp = sort.MergeSortImp(values, 0, 8);
             var imp = sort.MergeSortImp(values,0,values.Length-1);
-            Assert.Equal(expectedValue, imp);
+            Assert.Equal(expectedValue, imp); 
         }
     }
 }

@@ -906,6 +906,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "LeetCode": "1.0.0",
           "Recursion": "1.0.0",
           "Searching": "1.0.0",
           "Sorting": "1.0.0",
