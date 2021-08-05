@@ -15,6 +15,8 @@ namespace LeetCode
 
         public int removeDuplicates(int[] nums)
         {
+            if (nums.Length < 0)
+                return 0;
             int index = 1;
             for (int i = 0; i < nums.Length - 1; i++)
             {
