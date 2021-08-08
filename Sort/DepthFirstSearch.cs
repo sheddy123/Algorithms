@@ -33,12 +33,13 @@ namespace Sorting
 
             Stack<string> stackNodes = new Stack<string>(new string[] { src });
 
-            var current = stackNodes.Pop();
-            while (stackNodes.Count > 0)
+            while (graphNodes.Count > 0)
             {
+                var current = stackNodes.Pop();
+            
                 foreach (var node in graphNodes[current])
                 {
-                    if (node == src)
+                    if (node == dst)
                         return true;
                     stackNodes.Push(node);
                 }
