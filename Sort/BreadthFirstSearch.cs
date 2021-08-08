@@ -1,25 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Sorting
 {
-    public class DepthFirstSearch
+    //uses Queue
+    public class BreadthFirstSearch
     {
-        public void DFS(Dictionary<string, string[]> graphValues, string startingNode)
+        public void BFS(Dictionary<string, string[]> graphNodes, string startingNode)
         {
-            Stack<string> tempGraph = new Stack<string>(new string[] { startingNode });
-            
-            while(tempGraph.Count > 0)
+            Queue<string> queueNodes = new Queue<string>(new string[] { startingNode });
+            while (queueNodes.Count > 0)
             {
-                var currentNode = tempGraph.Pop();
+                var currentNode = queueNodes.Dequeue();
                 Console.WriteLine(currentNode);
 
-                foreach(var item in graphValues[currentNode])
+                foreach (var neighbour in graphNodes[currentNode])
                 {
-                    tempGraph.Push(item);
+                    queueNodes.Enqueue(neighbour);
                 }
             }
         }
     }
+
+
 }

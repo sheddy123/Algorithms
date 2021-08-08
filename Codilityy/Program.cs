@@ -14,18 +14,19 @@ namespace Codilityy
 {
     class Program
     {
+       
         static void Main(string[] args)
         {
-            DepthFirstSearch breadthFirstSearch = new DepthFirstSearch();
+            BreadthFirstSearch breadthFirstSearch = new BreadthFirstSearch();
             Dictionary<string, string[]> keyValuePairs = new Dictionary<string, string[]>();
             keyValuePairs.Add("f", new string[] { });
             keyValuePairs.Add("e", new string[] { });
             keyValuePairs.Add("d", new string[] { "f" });
             keyValuePairs.Add("c", new string[] { "e" });
             keyValuePairs.Add("b", new string[] { "d" });
-            keyValuePairs.Add("a", new string[] { "c", "b" });
+            keyValuePairs.Add("a", new string[] { "b", "c" });
 
-            breadthFirstSearch.DFS(keyValuePairs, "a");
+            breadthFirstSearch.BFS(keyValuePairs, "a");
             int[] duplicates = new int[3] { 1, 1, 2 };
             RemoveDuplicatesSortedArray array = new RemoveDuplicatesSortedArray();
             var output = array.ReoveDuplicates(duplicates);
