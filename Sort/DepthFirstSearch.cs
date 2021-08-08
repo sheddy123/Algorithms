@@ -22,7 +22,33 @@ namespace Sorting
                 }
             }
         }
+
+        //Write a function, hasPath, that takes in an bject representing the adjacency list
+        //of a directed acyclic graph and atwo nodes (src, dst). The function should return boolean
+        //indicating whether or not there exists a dircted path between the source and destination nodes.
+
+        public bool HasPath(Dictionary<string, string[]> graphNodes, string src, string dst)
+        {
+            if (src == dst) return true;
+
+            Stack<string> stackNodes = new Stack<string>(new string[] { src });
+
+            var current = stackNodes.Pop();
+            while (stackNodes.Count > 0)
+            {
+                foreach (var node in graphNodes[current])
+                {
+                    if (node == src)
+                        return true;
+                    stackNodes.Push(node);
+                }
+            }
+
+            return false;
+        }
+
     }
 
 
 }
+
