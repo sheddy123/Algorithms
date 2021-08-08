@@ -16,7 +16,7 @@ namespace Codilityy
     {
         static void Main(string[] args)
         {
-            BreadthFirstSearch breadthFirstSearch = new BreadthFirstSearch();
+            DepthFirstSearch breadthFirstSearch = new DepthFirstSearch();
             Dictionary<string, string[]> keyValuePairs = new Dictionary<string, string[]>();
             keyValuePairs.Add("f", new string[] { });
             keyValuePairs.Add("e", new string[] { });
@@ -25,7 +25,7 @@ namespace Codilityy
             keyValuePairs.Add("b", new string[] { "d" });
             keyValuePairs.Add("a", new string[] { "c", "b" });
 
-            breadthFirstSearch.BFS(keyValuePairs, "a");
+            breadthFirstSearch.DFS(keyValuePairs, "a");
             int[] duplicates = new int[3] { 1, 1, 2 };
             RemoveDuplicatesSortedArray array = new RemoveDuplicatesSortedArray();
             var output = array.ReoveDuplicates(duplicates);

@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Sorting
 {
-    public class BreadthFirstSearch
+    public class DepthFirstSearch
     {
-        public void BFS(Dictionary<string, string[]> graphValues, string startingNode)
+        public void DFS(Dictionary<string, string[]> graphValues, string startingNode)
         {
             Stack<string> tempGraph = new Stack<string>(new string[] { startingNode });
             
