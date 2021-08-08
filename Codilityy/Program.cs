@@ -16,9 +16,16 @@ namespace Codilityy
     {
         static void Main(string[] args)
         {
-            Factorial fac = new Factorial();
-            var word = "Forget  CVs..Save time . x x";
-            var count = fac.solution(word);
+            BreadthFirstSearch breadthFirstSearch = new BreadthFirstSearch();
+            Dictionary<string, string[]> keyValuePairs = new Dictionary<string, string[]>();
+            keyValuePairs.Add("f", new string[] { });
+            keyValuePairs.Add("e", new string[] { });
+            keyValuePairs.Add("d", new string[] { "f" });
+            keyValuePairs.Add("c", new string[] { "e" });
+            keyValuePairs.Add("b", new string[] { "d" });
+            keyValuePairs.Add("a", new string[] { "c", "b" });
+
+            breadthFirstSearch.BFS(keyValuePairs, "a");
             int[] duplicates = new int[3] { 1, 1, 2 };
             RemoveDuplicatesSortedArray array = new RemoveDuplicatesSortedArray();
             var output = array.ReoveDuplicates(duplicates);
