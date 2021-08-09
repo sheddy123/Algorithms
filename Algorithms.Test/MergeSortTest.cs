@@ -21,6 +21,7 @@ namespace Algorithms.Test
     public class HasPathDepthFirst
     {
         DepthFirstSearch depthFirst = new DepthFirstSearch();
+        BreadthFirstSearch breadthFirst = new BreadthFirstSearch();
 
         [Fact]
        // [MemberData(nameof(HasPathDepthFirst.Data), MemberType = typeof(HasPathDepthFirst))]
@@ -35,7 +36,7 @@ namespace Algorithms.Test
                  { "j",   new string[] { "i" } },
                   { "k",  new string[] { } }
          };
-            var hasPath = depthFirst.HasPath(graphValues, "f", "k");
+            var hasPath = breadthFirst.HasPath(graphValues, "f", "k");
 
             Assert.True(hasPath);
 
