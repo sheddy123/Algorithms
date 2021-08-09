@@ -18,6 +18,7 @@ namespace Codilityy
         static void Main(string[] args)
         {
             BreadthFirstSearch breadthFirstSearch = new BreadthFirstSearch();
+            var direct = breadthFirstSearch.ConvertToDirect();
             Dictionary<string, string[]> keyValuePairs = new Dictionary<string, string[]>();
             keyValuePairs.Add("f", new string[] { });
             keyValuePairs.Add("e", new string[] { });
