@@ -18,5 +18,17 @@ namespace Searching
             return BinarySearchImp(array, mid + 1, right, x);
         }
 
+        public int BinSearch(int[] array, int left, int right, int x)
+        {
+            //base case
+            int mid = (left + right)/ 2;
+            if (x == array[mid])
+                return mid;
+
+            if (x < array[mid])
+                return BinSearch(array, left, mid, x);
+            
+            return BinSearch(array, (mid + 1),right,x);
+        }
     }
 }
