@@ -11,7 +11,7 @@ namespace Algorithms.Test
         {
             var word = "abcdefghijklmnpqrstuvwxyz";
             WordReversal reverse = new WordReversal(word);
-
+            
             var reversedWord = reverse.reverseString(word);
 
             Assert.Equal("zyxwvutsrqpnmlkjihgfedcba", reversedWord);
