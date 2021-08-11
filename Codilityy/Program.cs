@@ -17,27 +17,6 @@ namespace Codilityy
        
         static void Main(string[] args)
         {
-            BreadthFirstSearch breadthFirstSearch = new BreadthFirstSearch();
-            var direct = breadthFirstSearch.ConvertToDirect();
-            Dictionary<string, string[]> keyValuePairs = new Dictionary<string, string[]>();
-            keyValuePairs.Add("f", new string[] { });
-            keyValuePairs.Add("e", new string[] { });
-            keyValuePairs.Add("d", new string[] { "f" });
-            keyValuePairs.Add("c", new string[] { "e" });
-            keyValuePairs.Add("b", new string[] { "d" });
-            keyValuePairs.Add("a", new string[] { "b", "c" });
-
-            breadthFirstSearch.BFS(keyValuePairs, "a");
-            int[] duplicates = new int[3] { 1, 1, 2 };
-            RemoveDuplicatesSortedArray array = new RemoveDuplicatesSortedArray();
-            var output = array.ReoveDuplicates(duplicates);
-            Console.WriteLine(output);
-            AdditionOfNumbers addNumbers = new AdditionOfNumbers();
-            int totalNumbers = addNumbers.AddTotalNumbers(5);
-            int totalNumbers2 = addNumbers.AddTotalNumbers2(5);
-            Console.WriteLine($"Addition with first calculation = {totalNumbers}");
-            Console.WriteLine($"Addition with second calculation = {totalNumbers2}");
-
             Console.ReadLine();
         }
 
