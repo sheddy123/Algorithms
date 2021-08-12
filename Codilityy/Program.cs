@@ -17,6 +17,8 @@ namespace Codilityy
        
         static void Main(string[] args)
         {
+            Brackets br = new Brackets();
+            var ss = br.solution("([)()]");
 
             Console.ReadLine();
         }
