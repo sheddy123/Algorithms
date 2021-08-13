@@ -1,0 +1,12 @@
+C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\bin\Debug\net5.0\CrackingCodingInterview.deps.json
+C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\bin\Debug\net5.0\CrackingCodingInterview.dll
+C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\bin\Debug\net5.0\ref\CrackingCodingInterview.dll
+C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\bin\Debug\net5.0\CrackingCodingInterview.pdb
+C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\obj\Debug\net5.0\CrackingCodingInterview.csproj.AssemblyReference.cache
+C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\obj\Debug\net5.0\CrackingCodingInterview.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\obj\Debug\net5.0\CrackingCodingInterview.AssemblyInfoInputs.cache
+C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\obj\Debug\net5.0\CrackingCodingInterview.AssemblyInfo.cs
+C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\obj\Debug\net5.0\CrackingCodingInterview.csproj.CoreCompileInputs.cache
+C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\obj\Debug\net5.0\CrackingCodingInterview.dll
+C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\obj\Debug\net5.0\ref\CrackingCodingInterview.dll
+C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\obj\Debug\net5.0\CrackingCodingInterview.pdb

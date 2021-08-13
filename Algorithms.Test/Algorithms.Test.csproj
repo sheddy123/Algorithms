@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Codilityy\Codilityy.csproj" />
+    <ProjectReference Include="..\CrackingCodingInterview\CrackingCodingInterview.csproj" />
     <ProjectReference Include="..\LeetCode\LeetCode.csproj" />
     <ProjectReference Include="..\Palindrome\Recursion.csproj" />
     <ProjectReference Include="..\Searching\Searching.csproj" />

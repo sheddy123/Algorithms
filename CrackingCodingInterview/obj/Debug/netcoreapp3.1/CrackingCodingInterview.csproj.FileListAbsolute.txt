@@ -1,0 +1,8 @@
+C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\bin\Debug\netcoreapp3.1\CrackingCodingInterview.deps.json
+C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\bin\Debug\netcoreapp3.1\CrackingCodingInterview.dll
+C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\bin\Debug\netcoreapp3.1\CrackingCodingInterview.pdb
+C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\obj\Debug\netcoreapp3.1\CrackingCodingInterview.AssemblyInfoInputs.cache
+C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\obj\Debug\netcoreapp3.1\CrackingCodingInterview.AssemblyInfo.cs
+C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\obj\Debug\netcoreapp3.1\CrackingCodingInterview.csproj.CoreCompileInputs.cache
+C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\obj\Debug\netcoreapp3.1\CrackingCodingInterview.dll
+C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\obj\Debug\netcoreapp3.1\CrackingCodingInterview.pdb

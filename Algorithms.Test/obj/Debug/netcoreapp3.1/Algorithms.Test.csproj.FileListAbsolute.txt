@@ -110,3 +110,5 @@ C:\Users\iodom\source\repos\Algorithms\Algorithms.Test\obj\Debug\netcoreapp3.1\A
 C:\Users\iodom\source\repos\Algorithms\Algorithms.Test\obj\Debug\netcoreapp3.1\Algorithms.Test.genruntimeconfig.cache
 C:\Users\iodom\source\repos\Algorithms\Algorithms.Test\bin\Debug\netcoreapp3.1\LeetCode.dll
 C:\Users\iodom\source\repos\Algorithms\Algorithms.Test\bin\Debug\netcoreapp3.1\LeetCode.pdb
+C:\Users\iodom\source\repos\Algorithms\Algorithms.Test\bin\Debug\netcoreapp3.1\CrackingCodingInterview.dll
+C:\Users\iodom\source\repos\Algorithms\Algorithms.Test\bin\Debug\netcoreapp3.1\CrackingCodingInterview.pdb
