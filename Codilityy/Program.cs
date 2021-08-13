@@ -17,13 +17,31 @@ namespace Codilityy
        
         static void Main(string[] args)
         {
-            Brackets br = new Brackets();
-            var ss = br.solution("([)()]");
+            UrlIfy text = new UrlIfy();
+            text.Url("Mr John  Smith ");
 
             Console.ReadLine();
         }
 
-       
+        public int solution(int[] A, int[] B, int[] C)
+        {
+            // write your code in C# 6.0 with .NET 4.5 (Mono)
+            int track = 0;
+
+            for (int i = 0; i < A.Length; i++)
+            {
+                if (A[i] <= C[track] && C[track] <= B[i])
+                {
+                    track++;
+                }if(A[i] >= C[track])
+                {
+                    track++;
+                }
+            }
+
+            return track == 0 ? 1 : (track + 1);
+
+        }
     }
 
     public class Factorial

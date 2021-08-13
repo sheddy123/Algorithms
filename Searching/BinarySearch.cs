@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Searching
 {
@@ -20,6 +22,7 @@ namespace Searching
 
         public int BinSearch(int[] array, int left, int right, int x)
         {
+            
             //base case
             int mid = (left + right)/ 2;
             if (x == array[mid])
@@ -30,5 +33,6 @@ namespace Searching
             
             return BinSearch(array, (mid + 1),right,x);
         }
+      
     }
 }
