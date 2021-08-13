@@ -9,6 +9,7 @@
       "Algorithms.Test/1.0.0": {
         "dependencies": {
           "Codilityy": "1.0.0",
+          "CrackingCodingInterview": "1.0.0",
           "LeetCode": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.5.0",
           "Recursion": "1.0.0",
@@ -706,6 +707,11 @@
           "Codilityy.dll": {}
         }
       },
+      "CrackingCodingInterview/1.0.0": {
+        "runtime": {
+          "CrackingCodingInterview.dll": {}
+        }
+      },
       "LeetCode/1.0.0": {
         "runtime": {
           "LeetCode.dll": {}
@@ -1090,6 +1096,11 @@
       "hashPath": "xunit.runner.visualstudio.2.4.0.nupkg.sha512"
     },
     "Codilityy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CrackingCodingInterview/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
