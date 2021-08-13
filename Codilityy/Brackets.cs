@@ -12,7 +12,7 @@ namespace Codilityy
     //For example, given S = "{[()()]}", the function should return 1 and given S = "([)()]", the function should return 0, as explained above
     //Write an efficient algorithm for the following assumptions: N is an integer within the range[0..200, 000];
     //string S consists only of the following characters: "(", "{", "[", "]", "}" and/or ")".
-    
+   
     class Brackets
     {
         public int solution(string S)
@@ -24,6 +24,7 @@ namespace Codilityy
                 for (int i = 0; i < S.Length; i++)
                 {
                     var characterToCheck = S[i];
+                    
                     switch (characterToCheck)
                     {
                         case '}':
@@ -44,7 +45,8 @@ namespace Codilityy
                                 return 0;
                             }
                             break;
-                        default: addCharacters.Push(characterToCheck); break;
+                        default:
+                            addCharacters.Push(characterToCheck); break;
                     }
                 }
                 return 1;
