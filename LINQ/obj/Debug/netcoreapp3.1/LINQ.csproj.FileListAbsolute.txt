@@ -1,0 +1,9 @@
+C:\Users\iodom\source\repos\Algorithms\LINQ\bin\Debug\netcoreapp3.1\LINQ.deps.json
+C:\Users\iodom\source\repos\Algorithms\LINQ\bin\Debug\netcoreapp3.1\LINQ.dll
+C:\Users\iodom\source\repos\Algorithms\LINQ\bin\Debug\netcoreapp3.1\LINQ.pdb
+C:\Users\iodom\source\repos\Algorithms\LINQ\obj\Debug\netcoreapp3.1\LINQ.csproj.AssemblyReference.cache
+C:\Users\iodom\source\repos\Algorithms\LINQ\obj\Debug\netcoreapp3.1\LINQ.AssemblyInfoInputs.cache
+C:\Users\iodom\source\repos\Algorithms\LINQ\obj\Debug\netcoreapp3.1\LINQ.AssemblyInfo.cs
+C:\Users\iodom\source\repos\Algorithms\LINQ\obj\Debug\netcoreapp3.1\LINQ.csproj.CoreCompileInputs.cache
+C:\Users\iodom\source\repos\Algorithms\LINQ\obj\Debug\netcoreapp3.1\LINQ.dll
+C:\Users\iodom\source\repos\Algorithms\LINQ\obj\Debug\netcoreapp3.1\LINQ.pdb

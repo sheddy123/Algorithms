@@ -10,7 +10,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CrackingCodingInterview\CrackingCodingInterview.csproj" />
     <ProjectReference Include="..\LeetCode\LeetCode.csproj" />
+    <ProjectReference Include="..\LINQ\LINQ.csproj" />
     <ProjectReference Include="..\Palindrome\Recursion.csproj" />
     <ProjectReference Include="..\Searching\Searching.csproj" />
     <ProjectReference Include="..\Sort\Sorting.csproj" />

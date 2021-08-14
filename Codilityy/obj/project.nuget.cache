@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Ia1ikxiwzAqm7i9iZ+tSH/Ie5aGXdbasSPhz2rQX80SjoDbOwQPwQzllM0ZapkVTDaka/5PWNSgTPJDgGJO5wQ==",
+  "dgSpecHash": "oDJHv6NHMZafBDhnwtEo51+GDDrJBkzLQRDxPhyOcDGPzE8mt0nkLtAOU76+t7Hhs/mKlJqjOZucvVQIlM3f+Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\iodom\\source\\repos\\Algorithms\\Codilityy\\Codilityy.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\iodom\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

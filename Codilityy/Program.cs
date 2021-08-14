@@ -9,6 +9,10 @@ using System.Linq;
 using System.Globalization;
 using LeetCode;
 using System.Text.RegularExpressions;
+using LINQ;
+using System.Linq;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace Codilityy
 {
@@ -17,12 +21,18 @@ namespace Codilityy
        
         static void Main(string[] args)
         {
-            UrlIfy text = new UrlIfy();
-            text.Url("Mr John  Smith ");
-
+           
             Console.ReadLine();
         }
-
+       public static Person[] ReadPeopleFromJsonFile()
+        {
+            using (var reader = new StreamReader(("people.json")))
+            {
+                string jsonData = reader.ReadToEnd();
+                var people = JsonConvert.DeserializeObject<Person[]>(jsonData);
+                return people;
+            }
+        } 
         public int solution(int[] A, int[] B, int[] C)
         {
             // write your code in C# 6.0 with .NET 4.5 (Mono)
@@ -46,6 +56,7 @@ namespace Codilityy
 
     public class Factorial
     {
+        
         //public int solution(string S)
         //{
         //    // write your code in C# 6.0 with .NET 4.5 (Mono)
@@ -67,6 +78,7 @@ namespace Codilityy
         
         public double GetFact(double num)
         {
+            
             sb.Append($"{num}! ");
             if (num == 1 || num == 0)
             {

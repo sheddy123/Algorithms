@@ -36,3 +36,8 @@ C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\Searchi
 C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\Searching.pdb
 C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\LeetCode.dll
 C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\LeetCode.pdb
+C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\CrackingCodingInterview.dll
+C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\LINQ.dll
+C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\CrackingCodingInterview.pdb
+C:\Users\iodom\source\repos\Algorithms\Codilityy\bin\Debug\netcoreapp3.1\LINQ.pdb
