@@ -6,3 +6,4 @@ C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\obj\Debug\netcore
 C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\obj\Debug\netcoreapp3.1\CrackingCodingInterview.csproj.CoreCompileInputs.cache
 C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\obj\Debug\netcoreapp3.1\CrackingCodingInterview.dll
 C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\obj\Debug\netcoreapp3.1\CrackingCodingInterview.pdb
+C:\Users\iodom\source\repos\Algorithms\CrackingCodingInterview\obj\Debug\netcoreapp3.1\CrackingCodingInterview.csproj.AssemblyReference.cache
