@@ -6,7 +6,7 @@ namespace CrackingCodingInterview
 
     public class StringArrays
     {
-
+// BUG:  comments
         public bool IsUnique(string stringToTest)
         {
             HashSet<char> stringSet = new HashSet<char>(stringToTest.ToCharArray());
