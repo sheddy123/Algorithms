@@ -112,3 +112,5 @@ C:\Users\iodom\source\repos\Algorithms\Algorithms.Test\bin\Debug\netcoreapp3.1\L
 C:\Users\iodom\source\repos\Algorithms\Algorithms.Test\bin\Debug\netcoreapp3.1\LeetCode.pdb
 C:\Users\iodom\source\repos\Algorithms\Algorithms.Test\bin\Debug\netcoreapp3.1\CrackingCodingInterview.dll
 C:\Users\iodom\source\repos\Algorithms\Algorithms.Test\bin\Debug\netcoreapp3.1\CrackingCodingInterview.pdb
+C:\Users\iodom\source\repos\Algorithms\Algorithms.Test\bin\Debug\netcoreapp3.1\LINQ.dll
+C:\Users\iodom\source\repos\Algorithms\Algorithms.Test\bin\Debug\netcoreapp3.1\LINQ.pdb

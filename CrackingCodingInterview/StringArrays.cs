@@ -1,13 +1,20 @@
 using System;
 using System.Collections.Generic;
 
-namespace CrackingCodingInterview{
+namespace CrackingCodingInterview
+{
 
-  public class StringArrays{
+    public class StringArrays
+    {
+// BUG:  comments
+        public bool IsUnique(string stringToTest)
+        {
+            HashSet<char> stringSet = new HashSet<char>(stringToTest.ToCharArray());
+            if (stringToTest.Length == stringSet.Count)
+                return true;
+            return false;
 
-       private bool IsUnique(string stringToTest){
-        
-       }
-   private bool df(){}
+        }
+
     }
 }
