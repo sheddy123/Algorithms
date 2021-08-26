@@ -15,6 +15,14 @@ namespace Algorithms.Test
             var result = stringTest.IsUnique(stringToTest);
 
             Assert.False(result);
+        } 
+        [Theory]
+        [InlineData("aabcccccaaa")]
+        public void CompressString(string stringToTest)
+        {
+            var result = stringTest.CompressInput(stringToTest);
+
+            Assert.Equal("a2b1c5a3", result);
         }
     }
 }
