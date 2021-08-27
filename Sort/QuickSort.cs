@@ -97,5 +97,43 @@ namespace Sorting
             array[low] = array[high];
             array[high] = temp;
         }
+
+
+        #region QuickSort
+        /// <summary>
+        /// Best Implementation by far for QuickSort
+        /// </summary>
+        /// <param name="array"></param>
+        /// <param name="low"></param>
+        /// <param name="high"></param>
+        /// <returns></returns>
+        public int[] QuickSortss(int[] array, int low, int high)
+        {
+            if(low < high)
+            {
+                int pivotIndex = Partition(array, low, high);
+                QuickSortss(array, low, pivotIndex-1);
+                QuickSortss(array, pivotIndex+1, high);
+            }
+            return array;
+        }
+
+        public int Partition(int[] array, int start, int end)
+        {
+            int pivot = array[end];
+            int partitionIndex = start;
+            for(int i=start; i<end; i++)
+            {
+                if(array[i] <= pivot)
+                {
+                    Swap(array, i, partitionIndex);
+                    partitionIndex++;
+                }
+            }
+            Swap(array, partitionIndex, end);
+            return partitionIndex;
+        }
+
+        #endregion
     }
 }
