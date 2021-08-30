@@ -21,9 +21,9 @@ namespace Codilityy
        
         static void Main(string[] args)
         {
-            QuickSort quickSort = new QuickSort();
+            SelectionSort selectionSort = new SelectionSort();
             int[] arrayTest = new int[8] { 12, 18, 15, 21, 19, 30, 4, 17};
-           var ss = quickSort.QuickSortss(arrayTest, 0, 7);
+           var ss = selectionSort.Selection(arrayTest);
 
             Console.ReadLine();
         }
