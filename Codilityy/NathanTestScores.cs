@@ -57,6 +57,34 @@ namespace Codilityy
             }
 
         }
+
+        public int NathScores(string[] T, string[] R)
+        {
+            Dictionary<string, int> groups = new Dictionary<string, int>();
+            Dictionary<string, int> results = new Dictionary<string, int>();
+
+            for(int i=0; i<T.Length; i++)
+            {
+                var result = System.Text.RegularExpressions.Regex.Match(T[i].ToString(), @"\d+").Value;
+                var index = T[i].ToString().IndexOf(result);
+                var testCaseName = T[i].ToString().Substring(0, index + 1);
+
+                if (!groups.ContainsKey(testCaseName))
+                    groups.Add(testCaseName, i);//Number of groups
+
+                if (!results.ContainsKey(testCaseName) && R[i] == "OK")
+                    results.Add(testCaseName, i);//Number of groups passed
+
+                if (!results.ContainsKey(testCaseName) && R[i] != "OK")
+                    results.Add(testCaseName, -1);
+             
+                if (results.ContainsKey(testCaseName) && R[i] != "OK")
+                    results[testCaseName] = -1;
+
+            }
+
+            return ((results.ToDictionary(x => x.Key, x=> x.Value).Where(x => x.Value != -1).ToList().Count * 100) / groups.Values.Count);
+        }
     }
 
 }
