@@ -18,7 +18,8 @@ namespace Algorithms.Test
             var result2 = nathScores.solution(tests, results);
 
             //Assert
-            Assert.Equal("", "");
+            Assert.Equal(33, result);
+            Assert.Equal(33, result2);
         }
 
     }
