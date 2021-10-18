@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 
 namespace LeetCode
 {
@@ -7,6 +8,10 @@ namespace LeetCode
     {
         public double FindMedianSortedArrays(int[] nums1, int[] nums2)
         {
+            string nass = "thej, thjhdjhs kdjkjsn,f fjhfhfh";
+            string[] arr = nass.Split(' ');
+            var dd = Regex.Replace(nass, @"[^\w\s]", "");
+            
             var copied_array = new List<int>();
             copied_array.AddRange(nums1);
             copied_array.AddRange(nums2);
