@@ -6,7 +6,7 @@ namespace Algorithms.Test
     public class MostCommonWordTest
     {
         [Theory]
-        [InlineData("a.", new string[] { })]
+        [InlineData("Bob!", new string[] { "hit"})]
         public void MostCommonTest(string paragraph, string[] banned)
         {
             //Arrange
