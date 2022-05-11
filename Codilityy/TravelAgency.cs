@@ -37,6 +37,8 @@ namespace Codilityy
                 {
                     shortestVacation = distance;
                 }
+                HashSet<int> a = new HashSet<int>();
+                
             }
             return shortestVacation;
             // write your code in C# 6.0 with .NET 4.5 (Mono)
@@ -85,6 +87,8 @@ namespace Codilityy
             }
             return shortestVacation;
         }
+
+        
     }
 
 }

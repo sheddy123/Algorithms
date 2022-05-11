@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-
-namespace Recursion
+﻿namespace Recursion
 {
     public class Palindrome
     {

@@ -12,7 +12,7 @@ namespace Searching
             var roundedNum = Math.Round(Convert.ToDouble(left + right)/2);
             int mid = Convert.ToInt32(roundedNum);
             if (x == array[mid])
-                return mid;
+                return mid; 
 
             if (x < array[mid])
                 return BinarySearchImp(array, left, mid - 1, x);

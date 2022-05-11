@@ -6,6 +6,13 @@ namespace Sorting
 {
     public class BubbleSort
     {
+        public void Swap(int j, int i, int[] array)
+        {
+            int temp = array[j];
+            array[j] = array[i];
+            array[i] = temp;
+        }
+
         public int[] SortBubble(int[] array)
         {
             for(int i=0; i < array.Length; i++)
@@ -19,11 +26,8 @@ namespace Sorting
             }
             return array;
         }
-        public void Swap(int j, int i, int[] array)
-        {
-            int temp = array[j];
-            array[j] = array[i];
-            array[i] = temp;
-        }
+        
+     
+
     }
 }
